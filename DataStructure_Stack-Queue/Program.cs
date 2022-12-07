@@ -11,6 +11,21 @@
             stack.Push(56);
             Console.WriteLine("\n--------stack elements--------");
             stack.Display();
+
+            stack.Peek();
+            stack.Pop();
+            Console.WriteLine("\n--------stack elements--------");
+            stack.Display();
+
+            stack.Peek();
+            stack.Pop();
+            Console.WriteLine("\n--------stack elements--------");
+            stack.Display();
+
+            stack.Peek();
+            stack.Pop();
+            Console.WriteLine("\n--------stack elements--------");
+            stack.Display();
         }
     }
 }
