@@ -11,6 +11,18 @@
             queue.Enqueue(70);
             Console.WriteLine("\n~~~~~~~~~Queue elements~~~~~~~~~");
             queue.Display();
+
+            queue.Dequeue();
+            Console.WriteLine("\n~~~~~~~~~Queue elements~~~~~~~~~");
+            queue.Display();
+
+            queue.Dequeue();
+            Console.WriteLine("\n~~~~~~~~~Queue elements~~~~~~~~~");
+            queue.Display();
+
+            queue.Dequeue();
+            Console.WriteLine("\n~~~~~~~~~Queue elements~~~~~~~~~");
+            queue.Display();
         }
     }
 }
