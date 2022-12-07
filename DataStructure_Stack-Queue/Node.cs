@@ -15,4 +15,5 @@ namespace DataStructure_Stack_Queue
             this.data = data;
         }
     }
+
 }

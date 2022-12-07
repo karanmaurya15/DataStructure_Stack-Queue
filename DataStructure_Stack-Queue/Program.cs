@@ -5,27 +5,12 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Wellcome to Stacks and Queues");
-            LinkedList stack = new LinkedList();
-            stack.Push(70);
-            stack.Push(30);
-            stack.Push(56);
-            Console.WriteLine("\n--------stack elements--------");
-            stack.Display();
-
-            stack.Peek();
-            stack.Pop();
-            Console.WriteLine("\n--------stack elements--------");
-            stack.Display();
-
-            stack.Peek();
-            stack.Pop();
-            Console.WriteLine("\n--------stack elements--------");
-            stack.Display();
-
-            stack.Peek();
-            stack.Pop();
-            Console.WriteLine("\n--------stack elements--------");
-            stack.Display();
+            LinkedList queue = new LinkedList();
+            queue.Enqueue(56);
+            queue.Enqueue(30);
+            queue.Enqueue(70);
+            Console.WriteLine("\n~~~~~~~~~Queue elements~~~~~~~~~");
+            queue.Display();
         }
     }
 }
